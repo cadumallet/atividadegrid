@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+    width: 60%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.A , .E{
+    grid-row: span 5;
+}
+.F , .G , .I{
+    grid-row: span 2;
+}
+.H{
+    grid-column: span 2;
+    grid-row: span 3;
+   }
+.B{
+    grid-column: span 3;
+}
+.C{
+    grid-column: span 2;
+}
+.E{
+    grid-row: span 5;
+}
+
+.J{
+    grid-column: span 4;
+}
+
+
+
+
+
+
+
